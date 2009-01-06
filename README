@@ -1,0 +1,47 @@
+-----------------------------------------
+What is Random Friend? 
+-----------------------------------------
+Random Friend is a Facebook Application *and* a Facebook Connect Web site.</b>
+Displays the profile image of one of your Friends
+Shows the Random Friend on your profile
+Shows how to create an application with Java and JSP - including updating the profile.
+Random Friend Site uses Facebook Connect to display the friend and publish a story to your profile
+
+Random Friend Site
+http://www.socialjava.com/random/connect.jsp 
+
+Random Friend Application
+http://apps.facebook.com/randomfriendapp  
+
+-----------------------------------------
+Random Friend Application 
+-----------------------------------------
+All files i same web directory:
+http://www.socialjava.com/random/
+
+-----------------------------------------
+Facebook Application:
+-----------------------------------------
+index.jsp - callback URL in Facebook Application setup. Specified as http://www.socialjava.com/random/
+
+-----------------------------------------
+Facebook Connect Pages
+-----------------------------------------
+connect.jsp - for non-logged in users.  Shows FB Connect login button
+showfriend.jsp - for connected and logged in users.  SHows Random Friend
+xd_receiver.htm - required Facebook Connect file
+
+-----------------------------------------
+Web Site and include files for both apps:
+-----------------------------------------
+about.jsp - about page
+header.html - include file header
+intro.html - include file intro
+footer.html - inlude file footer
+randomfriendsmall.JPG - Logo
+
+-----------------------------------------
+Not Used. Reference only. Application as Servlet
+-----------------------------------------
+in servlet directory
+FBServletTest.java
